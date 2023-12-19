@@ -1,0 +1,12 @@
+body {
+background-color: blanchedalmond;
+}
+
+.Important-text {
+    background-color: white;
+    color: blue;
+}
+#title {
+    border: solid black 1px;
+    font-size: 30px;
+}
