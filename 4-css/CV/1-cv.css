@@ -27,12 +27,18 @@ font-family: 'Montserrat', sans-serif;
     width: fit-content;
 }
 
+img{
+
+/*width: 350px;*/
+height: 300px;
+
+}
+
 .mail {
 
     border: dashed rgb(114, 87, 19) 2px;
     border-radius: 100vw;
     
-
 }
 
 a {
