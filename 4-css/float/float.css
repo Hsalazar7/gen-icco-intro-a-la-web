@@ -1,0 +1,17 @@
+img{
+    border: solid 3px blue;
+}
+
+
+#Zoids_1 {
+    width: 250px;
+    float: left;
+    margin-right: 16px;
+
+}
+#Zoids_2 {
+    height: 250px;
+    float: right;
+    margin-left: 16px;
+    
+}

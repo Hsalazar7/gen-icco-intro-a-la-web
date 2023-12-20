@@ -1,0 +1,41 @@
+/*
+CSS Resets
+*{
+    margin: 10;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: rgb(240, 236, 16);
+    margin: 10px;
+}
+ul{
+    background-color: white;
+    border: solid 3px black;
+    
+    padding-top: 30px;
+    padding-bottom: 50px;
+    /*shorthand*/
+    padding: 0px 30px    50px    60px;
+    /*       Top right  botton    Left */
+    padding: 0px 90px;
+    /*      Top  Right  */
+    /*      botton left */
+    padding: 20px;
+ 
+    /*margin: 50px 70px 100px 0px;*/
+}
+li{
+    background-color: goldenrod;
+    margin-bottom: 10px;
+    display: inline
+    ;
+}
+.prueba {
+    background-color: aliceblue;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+
+
+}
