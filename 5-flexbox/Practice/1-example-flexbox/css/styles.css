@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(84, 22, 143); /* name, rgb, hexadesimal, hdsl */
+    color: white;
+    height: 10vh; /* px son fijos y vh se adaptan al cambio de la ventana */
+
+}
+
+.dashborad{
+ display: flex;
+ gap: 15px;
+ margin-top: 20px;
+
+ 
+ .article-element-1{
+    background-color: aquamarine;
+    padding: 12px;
+ }
+.article-element-2{
+    background-color: greenyellow;
+    padding: 12px;
+    }
+.article-element-3{
+    background-color: yellow;
+    padding: 12px;
+}
+}
