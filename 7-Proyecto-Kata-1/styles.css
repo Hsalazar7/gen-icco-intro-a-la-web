@@ -1,5 +1,5 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url(https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/ec4b6ccd-0115-4454-ac5a-59ac561452ae/BO-es-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg)
@@ -12,13 +12,16 @@ body{
 .Logo{
     width: 12%;
 }
-.btn{
+.btn{ /*boton iniciar sesión*/
     padding: 12px 15px;
     color: #fff;
     background-color: #e50914;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 10px;
+    justify-content: center;
+
 }
 .nav{
     padding-top: 5px;
@@ -38,6 +41,9 @@ select{
     position: absolute;
     margin-top: 8%;
     margin-left: 30%;
+    
+
+
 }
 .content h1{
     font-size: 50px;
@@ -45,13 +51,24 @@ select{
 .content h2{
     font-size: 30px;
 }
-.mail{
+.mail{ /*Espacio email*/
+    /*
+    width: 70%;
+    align-items: center;
+    background-color: rgba(128, 124, 124, 0.733);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 
+ */
     width: 80%;
     height: fit-content;
     align-items: center;
     background-color: #fff;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    border-radius: 10px 
+
+
 }
 .mail input{
     outline: none;
@@ -59,10 +76,14 @@ select{
     padding: 12px 10px;
     size: 1em;
 }
-.mail a{
+.mail a{ /*boton comenzar*/
     height: fit-content;
     background-color: #e50914;
     color: #fff;
-    padding: 18px 12px;
+    padding: 25px 30px;
     text-decoration: none;
+    border-radius: 10px;
+    justify-content: center;
+
+    
 }
