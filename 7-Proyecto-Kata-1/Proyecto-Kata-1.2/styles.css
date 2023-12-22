@@ -1,7 +1,19 @@
+/*INICIO ENCABEZADO*/
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     background-color: black;
-
+    background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/ec4b6ccd-0115-4454-ac5a-59ac561452ae/BO-es-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    inset: 0;
+    
 }
 
 header{
@@ -36,11 +48,14 @@ header div.select{
     margin: 30px;
 }
 
-
 header div.select svg{
 height: 20px;
 fill: white;
 position: absolute;
 margin-top: 5px;
 margin-left: 4px;
+}
+/*FIN ENCABEZADO*/
+div.splash div.gradient{
+
 }
