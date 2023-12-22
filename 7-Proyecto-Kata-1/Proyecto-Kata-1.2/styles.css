@@ -2,17 +2,19 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+
 }
 body{
     font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     background-color: black;
-    background-image:
-    linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),
-    url(https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/ec4b6ccd-0115-4454-ac5a-59ac561452ae/BO-es-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg);    
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/ec4b6ccd-0115-4454-ac5a-59ac561452ae/BO-es-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg)
+    ;    
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    inset: 0;
+    color: white;
     
 }
 
@@ -20,9 +22,12 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 26px 56px;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
 
 }
- header .Logo{
+header .Logo{
     height: 37px;
     display: block;
 }
@@ -56,6 +61,67 @@ margin-top: 5px;
 margin-left: 4px;
 }
 /*FIN ENCABEZADO*/
-div.splash div.gradient{
+
+.content{
+    max-width: 655px;
+    position: absolute;
+    inset: 0;
+    left: 50%;
+    margin-left: -327.5px;
+    display: grid;
+    align-items: center;
+    margin-top: 12%;
+    text-align: center;
+}
+div.content h1, div.content h2, div.content h3{
+    font-weight: normal;
+
+} 
+
+.content h1{
+    font-size: 3.125rem;
+    font-weight: bold;
 
 }
+.content h2{
+    font-size: 1.625rem;
+    margin-top: 13px;
+    margin-bottom: 29px;
+}
+.content h3{
+    font-size: 1.2rem;
+    margin-top: 13px;
+    margin-bottom: 29px;
+}
+.mail{ /*Espacio email*/
+    /*
+    width: 70%;
+    align-items: center;
+    background-color: rgba(128, 124, 124, 0.733);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 
+ */
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 
+
+}
+.mail input{
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    size: 1em;
+}
+.mail a{ /*boton comenzar*/
+    height: fit-content;
+    background-color: #e50914;
+    color: #fff;
+    padding: 25px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    justify-content: center;
