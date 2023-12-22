@@ -1,0 +1,46 @@
+body{
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: black;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px;
+
+}
+ header .Logo{
+    height: 37px;
+    display: block;
+}
+header div+div{
+    text-align: right;
+}
+header a.button{
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+header select{
+    background-color: transparent;
+    color: #fff;    
+    padding: 6px 0 6px 20px;
+    border-radius: 3px;    
+}
+header div.select{
+    display: inline-block;
+    margin: 30px;
+}
+
+
+header div.select svg{
+height: 20px;
+fill: white;
+position: absolute;
+margin-top: 5px;
+margin-left: 4px;
+}
