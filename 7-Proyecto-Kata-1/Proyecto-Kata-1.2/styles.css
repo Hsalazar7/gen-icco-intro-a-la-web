@@ -41,14 +41,14 @@ header a.button{
     color: #fff;
     text-decoration: none;
     padding: 5px 15px;
-    border-radius: 3px;
+    border-radius: 0.5px;
 }
 
 header select{
     background-color: transparent;
     color: #fff;    
     padding: 6px 0 6px 20px;
-    border-radius: 3px;    
+    border-radius: 0.5px;    
 }
 
 header div.select{
@@ -114,7 +114,6 @@ div.content h1, div.content h2, div.content h3{
     display: flex;
     justify-content: space-between;
     border-radius: 10px 
-    padding: 25px 30px;
 }
 
 .mail input{
