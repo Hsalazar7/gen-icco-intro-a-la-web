@@ -15,7 +15,6 @@ body{
     background-repeat: no-repeat;
     position: relative;
     color: white;
-    
 }
 
 header{
@@ -25,15 +24,17 @@ header{
     position: absolute;
     width: 100%;
     z-index: 5;
-
 }
+
 header .Logo{
     height: 37px;
     display: block;
 }
+
 header div+div{
     text-align: right;
 }
+
 header a.button{
     display: inline-block;
     background-color: #e50914;
@@ -42,12 +43,14 @@ header a.button{
     padding: 5px 15px;
     border-radius: 3px;
 }
+
 header select{
     background-color: transparent;
     color: #fff;    
     padding: 6px 0 6px 20px;
     border-radius: 3px;    
 }
+
 header div.select{
     display: inline-block;
     margin: 30px;
@@ -75,7 +78,6 @@ margin-left: 4px;
 }
 div.content h1, div.content h2, div.content h3{
     font-weight: normal;
-
 } 
 
 .content h1{
@@ -83,16 +85,19 @@ div.content h1, div.content h2, div.content h3{
     font-weight: bold;
 
 }
+
 .content h2{
     font-size: 1.625rem;
     margin-top: 13px;
     margin-bottom: 29px;
 }
+
 .content h3{
     font-size: 1.2rem;
     margin-top: 13px;
     margin-bottom: 29px;
 }
+
 .mail{ /*Espacio email*/
     /*
     width: 70%;
@@ -102,26 +107,29 @@ div.content h1, div.content h2, div.content h3{
     justify-content: space-between;
     border-radius: 10px 
  */
-    width: 80%;
+    width: 100%;
     height: fit-content;
     align-items: center;
-    background-color: #fff;
+    background-color: rgba(128, 124, 124, 0.733);
     display: flex;
     justify-content: space-between;
     border-radius: 10px 
-
+    padding: 25px 30px;
 }
+
 .mail input{
     outline: none;
     border: none;
     padding: 12px 10px;
     size: 1em;
 }
+
 .mail a{ /*boton comenzar*/
     height: fit-content;
     background-color: #e50914;
     color: #fff;
-    padding: 25px 30px;
+    padding: 15px 30px;
     text-decoration: none;
     border-radius: 10px;
     justify-content: center;
+    }
