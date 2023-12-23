@@ -113,7 +113,7 @@ div.content h1, div.content h2, div.content h3{
     background-color: rgba(128, 124, 124, 0.733);
     display: flex;
     justify-content: space-between;
-    border-radius: 10px 
+    border-radius: 5px 
 }
 
 .mail input{
@@ -127,7 +127,7 @@ div.content h1, div.content h2, div.content h3{
     height: fit-content;
     background-color: #e50914;
     color: #fff;
-    padding: 15px 30px;
+    padding: 1px 30px;
     text-decoration: none;
     border-radius: 10px;
     justify-content: center;
